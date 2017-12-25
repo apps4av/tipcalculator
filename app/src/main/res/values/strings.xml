@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tip Calculator</string>
+    <string name="app_name">Tip Calculator by Apps4Av</string>
     <string name="bill_amount">Enter bill amount</string>
     <string name="split_between">Enter number of parties to divide between</string>
     <string name="exact">Exact</string>

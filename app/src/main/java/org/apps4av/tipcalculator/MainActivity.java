@@ -143,6 +143,9 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             billAmount = Double.parseDouble(mEditTextBillAmount.getText().toString());
+            if(billAmount < 0) {
+                throw new Exception();
+            }
         }
         catch (Exception e1) {
             // invalid input
@@ -151,6 +154,9 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             splitBetweenInt = Integer.parseInt(mEditTextSplitBetween.getText().toString());
+            if(splitBetweenInt < 1) {
+                throw new Exception();
+            }
         }
         catch (Exception e1) {
             // invalid input
@@ -160,6 +166,9 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             minimumTip = Integer.parseInt(mPref.getMinimumTip());
+            if(minimumTip < 0) {
+                throw new Exception();
+            }
         }
         catch (Exception e1) {
             // invalid input
@@ -169,6 +178,9 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             usualTip = Integer.parseInt(mPref.getUsualTip());
+            if(usualTip < 0) {
+                throw new Exception();
+            }
         }
         catch (Exception e1) {
             // invalid input
@@ -178,6 +190,9 @@ public class MainActivity extends AppCompatActivity {
 
         try {
             highTip = Integer.parseInt(mPref.getHighTip());
+            if(highTip < 0) {
+                throw new Exception();
+            }
         }
         catch (Exception e1) {
             // invalid input
