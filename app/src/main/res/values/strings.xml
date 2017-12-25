@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <string name="bill_amount">Enter bill amount</string>
+    <string name="split_between">Enter number of parties to divide between</string>
+    <string name="exact">Exact</string>
+    <string name="rounded">Rounded</string>
+    <string name="settings">Settings</string>
+    <string name="table_pp">This is calculated tip and total per party</string>
+    <string name="minimum">Enter minimum tip in percent</string>
+    <string name="usual">Enter usual tip in percent</string>
+    <string name="high">Enter high tip in percent</string>
+    <string name="invalid_parties">Please enter valid number of parties</string>
+    <string name="invalid_minimum">Please enter valid minimum tip percentage in Settings</string>
+    <string name="invalid_usual">Please enter valid usual tip percentage in Settings</string>
+    <string name="invalid_high">Please enter valid high tip percentage in Settings</string>
+</resources>
